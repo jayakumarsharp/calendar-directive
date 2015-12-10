@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="row">
+    <select id="month-options-menu" class="col-md-2">
+      <option class="options" value=0>January</option>
+      <option class="options" value=1>Febuary</option>
+      <option class="options" value=2>March</option>
+      <option class="options" value=3>April</option>
+      <option class="options" value=4>May</option>
+      <option class="options" value=5>June</option>
+      <option class="options" value=6>July</option>
+      <option class="options" value=7>August</option>
+      <option class="options" value=8>September</option>
+      <option class="options" value=9>October</option>
+      <option class="options" value=10>November</option>
+      <option class="options" value=11>December</option>
+    </select>
+    <select id="year-options-menu" class="col-md-2">
+      <option ng-repeat="year in yearArray" class="options" value={{year}}>{{year}}</option>
+
+    </select>
+  </div>
+</div>
