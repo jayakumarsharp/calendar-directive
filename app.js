@@ -5,8 +5,8 @@ var app = angular.module('calendarDemoApp', []);
 app.controller('calendarDisplayController', ['$scope', '$element', '$log', function($scope, $element, $log) {
   $scope.startDate = new Date();
   $scope.date = new Date();
-  $scope.userMonth;
-  $scope.userYear;
+  $scope.userMonth =1;
+  $scope.userYear =2015;
   
 
   
